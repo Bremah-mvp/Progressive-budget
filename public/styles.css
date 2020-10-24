@@ -1,11 +1,21 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jumbotron {
+  background-color: #F0F0F0;
+  padding: 35px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #008a00;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 table {
@@ -23,7 +33,7 @@ tr:nth-child(even) {
 }
 
 .error {
-  color: red;
+  color: #008a00;
 }
 
 .wrapper {
@@ -48,4 +58,52 @@ tr:nth-child(even) {
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-control:focus, .btn:active {
+  outline: #F0F0F0;
+  box-shadow: none; 
+  border-color:#F0F0F0;
+}
+
+/* Buttons */
+
+.btn {
+  margin: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-primary {
+  background-color:#008a00;
+  padding-left: 30px;
+  padding-right: 30px;
+  border:none;
+  box-shadow: none; 
+}
+
+.btn-primary:hover {
+  color:  #5D5D5D;
+  background-color: #F0F0F0;
+  border-color: #008a00;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color:#F0F0F0;
+  border-color: #F0F0F0;
+  color: #5D5D5D;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #008a00;
+  border-color: #008a00;
+  cursor: pointer;
 }
