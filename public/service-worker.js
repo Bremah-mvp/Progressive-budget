@@ -7,6 +7,9 @@ const FILES_TO_CACHE = [
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png',
     '/db.js',
+    '/https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css',
+    '/https://cdn.jsdelivr.net/npm/chart.js@2.8.0'
+
   ];
   
   const CACHE_NAME = 'static-cache-v2';
