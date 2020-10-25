@@ -12,19 +12,21 @@ const FILES_TO_CACHE = [
 
   ];
   
-  const CACHE_NAME = 'static-cache-v2';
-  const DATA_CACHE_NAME = 'data-cache-v1';
+  const PRECACHE  = 'precache-v1';
+  const RUNTIME = 'runtime';
   
   // Install and add service worker
   self.addEventListener('install', function(evt) {
     evt.waitUntil(
-      caches.open(CACHE_NAME).then(cache => {
+      caches.open(PRECACHE).then(cache => {
         console.log('Your files were pre-cached successfully!');
-        return cache.addAll(FILES_TO_CACHE);
+       // return 
+        cache.addAll(FILES_TO_CACHE);
+        self.skipWaiting();
       })
     );
   
-    self.skipWaiting();
+    
   });
   
   // Activate the service worker and remove old data from the cache
