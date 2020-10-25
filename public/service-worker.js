@@ -58,10 +58,10 @@ const FILES_TO_CACHE = [
   
                 return response;
               })
-              .catch(err =>
+              .catch(err => {
                 // Network request failed, try to get it from the cache.
-                cache.match(evt.request)
-              )
+               return cache.match(evt.request)
+              }) 
           )
           .catch(err => console.log(err))
       );
