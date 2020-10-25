@@ -73,8 +73,8 @@ const FILES_TO_CACHE = [
     evt.respondWith(
       caches
         .open(CACHE_NAME)
-        .then(cache =>
-          cache
+      .then(cache =>
+         cache
             .match(evt.request)
             .then(response => response || fetch(evt.request))
         )
