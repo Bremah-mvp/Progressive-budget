@@ -19,7 +19,7 @@ License
 
 Questions
 
-Description
+                      Description
 
 Progressive budget application is a node developed app that enables a user to manage their budget by entering transactions and manipulate them as desired. It uses progressive web applicaton technology to work while offline too. transactions are able to be entered and saved and post to the database when the app returns to an online state. 
 
@@ -32,7 +32,10 @@ A user I WANT to be able to track my withdrawals and deposits with or without da
 Progressive Budget app:https://pbudget123.herokuapp.com/
 
                        Screenshots 
-                       
+![online](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20online.png)
+
+![offline](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20offline.png)
+
 
                       Technologies
 
@@ -45,7 +48,7 @@ Heroku
 Indexed DB
 Service Worker
 
-Installation
+                      Installation
 
 To install dependencies, run the following:
 
@@ -53,13 +56,13 @@ npm install
 
 To run it locally, make sure that the MongoDB server is running on your machine.
 
-Usage
+                     Usage
 
 After downloading the files and installing dependencies, run
 
 npm start
 
-License
+                    License
 
 This repository is licensed under the MIT license.
 
