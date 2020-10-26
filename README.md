@@ -32,9 +32,9 @@ A user I WANT to be able to track my withdrawals and deposits with or without da
 Progressive Budget app:https://pbudget123.herokuapp.com/
 
                        Screenshots 
-![online](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20online.png)
+![online](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20online.png)ONLINE
 
-![offline](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20offline.png)
+![offline](https://github.com/Bremah-mvp/Progressive-budget/blob/main/public/icons/Screenshot%20offline.png)OFFLINE
 
 
                       Technologies
